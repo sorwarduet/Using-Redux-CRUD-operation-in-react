@@ -71,6 +71,7 @@ class Persons extends Component {
     
     handleDelete=(id)=>{
       this.props.deletePerson(id);
+      this.props.listPersons();
       
 
     }
@@ -78,11 +79,7 @@ class Persons extends Component {
   
 
   render() {
-    const { loading, persons } = this.props.personsList;
-
-    console.log(this.props.personCreate);
-    console.log(this.props.personDelete);
-    
+    const { loading, persons } = this.props.personsList;    
     
     const personsRow = persons.map((person, index)=>{
         return(

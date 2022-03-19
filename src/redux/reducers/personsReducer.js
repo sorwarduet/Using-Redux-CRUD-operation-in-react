@@ -65,6 +65,7 @@ export const deletePersonReducer = (state = { }, action) => {
         loading: true
       };
     case PERSON_DELETE_SUCCESS:
+      console.log(state.persons);
       return {
         ...state,
         loading: false,
