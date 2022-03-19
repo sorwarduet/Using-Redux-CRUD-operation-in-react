@@ -1,0 +1,50 @@
+{
+  "books": [
+    {
+      "bookName": "New Vesion Book",
+      "author": "Md Sorwar Alam",
+      "rating": 4,
+      "id": 0
+    },
+    {
+      "bookName": "Nice To Book",
+      "author": "It's Begain",
+      "rating": "2",
+      "id": 1
+    },
+    {
+      "bookName": "New Book Add",
+      "author": "Fine book ok",
+      "rating": "3",
+      "id": 2
+    },
+    {
+      "bookName": "My name is fine",
+      "author": "Who are yo",
+      "rating": "4",
+      "id": 4
+    }
+  ],
+  "persons": [
+    {
+      "id": 0,
+      "name": "Krim Uddin",
+      "short_description": "Hello Bangladesh"
+    },
+    {
+      "id": 1,
+      "name": "Md Sorwar Alam",
+      "short_description": "Nice to Redux"
+    },
+    {
+      "name": "Desktop",
+      "short_description": "New Add File",
+      "id": 2
+    },
+    {
+      "name": "Desktop",
+      "short_description": "afsdasf",
+      "id": 3
+    }
+  ]
+}
